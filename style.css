@@ -11,6 +11,11 @@ body {
     width: 100vw;
     height: 100vh;
 }
+textarea {
+    resize: none;
+    width: 400px;
+    height: 125px;
+}
 
 .container {
     width: 500px;

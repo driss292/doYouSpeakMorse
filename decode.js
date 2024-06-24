@@ -99,7 +99,7 @@ function decodeOrEncode(str, code) {
 // console.log(decodeOrEncode(sentence2, dictionnaire));
 
 function displayResult() {
-    outputText.textContent = decodeOrEncode(inputText.value, dictionnaire);
+    outputText.value = decodeOrEncode(inputText.value, dictionnaire);
     // inputText.value = "";
 }
 
